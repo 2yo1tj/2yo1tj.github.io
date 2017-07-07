@@ -41,8 +41,8 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  white-space: nowrap;
+  background-color:white;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -160,4 +160,20 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+.frame {
+    background-color:white;
+    white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+    text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
 }
