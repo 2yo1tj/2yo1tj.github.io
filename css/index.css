@@ -223,14 +223,27 @@ html, body {
   position: absolute; bottom: 0;
   background-color: #CCC;
 }
-#kramer1 {
-  width: 150px; height: 198px;
+
+#sprite-test {
+  width: 100px; height: 130px;
   position: absolute; bottom: 25px; left: -150px;
-  background: url('http://blueprintinteractive.com/sites/default/files/kramer_sprites.png');
+  background: url('../images/sprite-test.png');
 }
 
-#kramer2 {
-  width: 150px; height: 198px;
-  position: absolute; bottom: 25px; left: 150px;
-  background: url('http://blueprintinteractive.com/sites/default/files/kramer_sprites.png');
+#sprite-test1 {
+  width: 100px; height: 130px;
+  position: absolute; bottom: 25px; right: 150px;
+  background: url('../images/sprite-test.png');
+ /* -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; */
+}
+
+#sprite-test2 {
+  width: 100px; height: 130px;
+  position: absolute; bottom: 25px; left: -150px;
+  background: url('../images/sprite-test.png');
 }
