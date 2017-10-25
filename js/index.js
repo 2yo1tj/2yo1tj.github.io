@@ -9,22 +9,22 @@ sprite.play();
 var distance = window.innerWidth;
 
 // how many pixels per iteration to travel
-var speed = 4;
+var speed = 8;
 
 // variable to hold our element's position
-var position = 0;
+var position = window.innerWidth;
 
 function animate() {
     // increment the position
-    position += speed;
+    position -= speed;
   
     // apply the position to our element
     element.style.left = position + "px";
   
     // check if element has gone offscreen 
     // and move him back, if necessary
-    if (Math.abs(position) >= distance) {
-      position = -150;
+    if (Math.abs(position) <= 0) {
+      position = window.innerWidth;
     }
     
     // tell the browser to update our animation
