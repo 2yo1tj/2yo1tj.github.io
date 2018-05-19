@@ -1,0 +1,220 @@
+.body {
+  border-style: none;
+  background-color: blue;
+}
+
+.logo {
+  position: fixed;
+  left: 0px;
+  top: 40%;
+  right: 0px;
+  display: block;
+  width: 75px;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block {
+  position: fixed;
+  left: 30%;
+  top: 25%;
+  width: 40%;
+}
+
+.form-block {
+  position: fixed;
+  left: 30%;
+  top: 35%;
+  width: 40%;
+}
+
+.submit-button {
+  display: block;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  background-color: #0000af;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.submit-button:hover {
+  background-color: navy;
+}
+
+.submit-button:focus {
+  background-color: navy;
+}
+
+.field-label {
+  margin-top: 5%;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.text-field {
+  background-color: #0000af;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.text-field.dark-blue {
+  border-style: none;
+  border-radius: 5px;
+}
+
+.text-field.dark-blue:hover {
+  background-color: navy;
+}
+
+.text-field.dark-blue:focus {
+  background-color: navy;
+}
+
+.textarea {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.textarea.dark-blue {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #0000af;
+}
+
+.textarea.dark-blue:hover {
+  background-color: navy;
+}
+
+.textarea.dark-blue:focus {
+  background-color: navy;
+}
+
+.text-block {
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.text-block.heading {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.text-block.paragraph {
+  position: fixed;
+  left: 30%;
+  top: 46%;
+  width: 40%;
+  color: hsla(0, 0%, 100%, .5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.div-block-2 {
+  position: fixed;
+  top: 25%;
+  width: 40%;
+}
+
+.form-message {
+  margin-top: 5%;
+  border-style: none;
+  border-radius: 5px;
+  background-color: navy;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form-message.success {
+  background-color: navy;
+}
+
+.form-message.error {
+  background-color: #830000;
+}
+
+.form-message-text-block {
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+}
+
+.sprite-image.left-1 {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  max-width: 100%;
+}
+
+.sprite-image.right-1 {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+.sprite-image.left-2 {
+  position: fixed;
+  left: 30vw;
+  bottom: 0px;
+}
+
+.sprite-image.right-2 {
+  position: fixed;
+  right: 30vw;
+  bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  .form-block {
+    left: 20%;
+    width: 60%;
+  }
+  .text-block.paragraph {
+    left: 20%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-block {
+    left: 10%;
+    width: 80%;
+  }
+  .text-block.paragraph {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 479px) {
+  .form-block {
+    top: 38%;
+  }
+  .submit-button {
+    font-size: 12px;
+  }
+  .field-label {
+    font-size: 12px;
+  }
+  .text-field.dark-blue {
+    font-size: 12px;
+  }
+  .textarea.dark-blue {
+    font-size: 12px;
+  }
+  .text-block.paragraph {
+    font-size: 12px;
+  }
+}
+
